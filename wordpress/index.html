@@ -32,11 +32,13 @@
             <div class="col">
                 <h3>Table of contents.</h3>
                 <ul class="list-group list-group-flush">
-                    <li class="list-group-item"><a href="#log-in">Logging In</a></li>
-                    <li class="list-group-item"><a href="#dashboard">WordPress Dashboard</a></li>
-                    <li class="list-group-item"><a href="#posts">Posts</a></li>
-                    <li class="list-group-item"><a href="#pages">Pages</a></li>
-                    <li class="list-group-item"><a href="#menus">Menus</a></li>
+                    <li class="list-group-item"><a href="#log-in" title="Logging In">Logging In</a></li>
+                    <li class="list-group-item"><a href="#dashboard" title="WordPress Dashboard">WordPress Dashboard</a></li>
+                    <li class="list-group-item"><a href="#posts" title="Posts">Posts</a></li>
+                    <li class="list-group-item"><a href="#pages" title="Pages">Pages</a></li>
+                    <li class="list-group-item"><a href="#menus" title="Menus">Menus</a></li>
+                    <li class="list-group-item"><a href="#settings" title="Settings">Settings</a></li>
+                    <li class="list-group-item"><a href="#users" title="Users">Users</a></li>
                 </ul>
             </div>
             <!-- /.col -->
@@ -75,9 +77,128 @@
                         <h4>WordPress Dashboard</h4>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                        <h5 class="card-title">Using your WordPress Dashboard</h5>
+                        <img class="border border-primary" src="img/dashboard.png" alt="WordPress Dashboard screenshot">
+                        <p class="card-text">After logging in, you will be brought to your WordPress dashboard. This is where you will control all of your websites content. The lefthand sidebar allows you to navigate to your posts, pages, settings, and more.</p>
+                        <p class="card-text">To learn more about how to customize your WordPress dashboard view, <a href="https://codex.wordpress.org/Dashboard_Screen" target="_blank" title="WordPress.org Dashboard Information">check out the WordPress docs.</a></p>
+                        <a href="https://codex.wordpress.org/Dashboard_Screen" class="btn btn-primary" target="_blank" title="WordPress.org Dashboard documentation">Learn more about the WordPress Dashboard</a>
+                    </div>
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col">
+                <div class="card mt-5" id="posts">
+                    <div class="card-header">
+                        <h4>Posts</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Creating &amp; Managing WordPress Posts</h5>
+                        <img class="border border-primary" src="img/posts.png" alt="WordPress posts screenshot">
+                        <p class="card-text">Posts in WordPress are short for blog post or news articles. Think of them as "Blog Posts" even if you don't have a blog. If you have a news section, you'll probably be using "Posts" to manage your content.</p>
+                        <p class="card-text">To add a new post, click on "Posts" and then click "Add New". Follow the on screen instructions and add your new post. When you're ready to publish your post, click publish.</p>
+                        <div class="alert alert-success" role="alert">
+                            Think of the main post editor as a Word document. You can bold text, add lists, add headings etc. It's all up to you!
+                        </div>
+                        <div class="alert alert-info" role="alert">
+                            You can add images to your post by using the Media button above the main editor. This will allow you to easily upload and insert images.
+                        </div>
+                        <p class="card-text">To learn more about WordPress posts, <a href="https://codex.wordpress.org/Writing_Posts" target="_blank" title="WordPress.org Writing Posts">check out the WordPress docs on writing posts.</a></p>
+                        <a href="https://codex.wordpress.org/Writing_Posts" class="btn btn-primary" target="_blank" title="WordPress.org writing posts">Learn more about writing WordPress posts</a>
+                    </div>
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col">
+                <div class="card mt-5" id="pages">
+                    <div class="card-header">
+                        <h4>Pages</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Creating &amp; Managing WordPress Pages</h5>
+                        <img class="border border-primary" src="img/pages.png" alt="WordPress pages screenshot">
+                        <p class="card-text">Pages in WordPress are static and traditional pieces of website content. Pages are static and are not listed by date. Pages do not use tags or categories, like a blog post would. An About page is the classic example. Pages are
+                            often displayed in the main navigation of the site.</p>
+                        <p class="card-text">To add a new page, click on "Page" and then click "Add New". Follow the on screen instructions and add your new page. When you're ready to publish your page, click publish.</p>
+                        <div class="alert alert-success" role="alert">
+                            Remember, just like posts, pages have a rich content editor that allows all kinds of styles and media. Think of it as a Word document when adding your content.
+                        </div>
+                        <div class="alert alert-info" role="alert">
+                            Confused about the difference between posts and pages? No problem, check out the link below and <a href="https://codex.wordpress.org/Pages" target="_blank" title="WordPress Pages Information">read the WordPress pages intro for more details.</a>
+                        </div>
+                        <a href="https://make.wordpress.org/support/user-manual/content/posts-vs-pages/" class="btn btn-primary" target="_blank" title="WordPress posts vs pages.">Learn more about Posts vs Pages</a>
+                    </div>
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col">
+                <div class="card mt-5" id="menus">
+                    <div class="card-header">
+                        <h4>Menus</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Creating &amp; Managing WordPress Menus</h5>
+                        <img class="border border-primary" src="img/menus.png" alt="WordPress menus screenshot">
+                        <p class="card-text">Menus in WordPress refer to your website navigation links. Typically menus are found at the top of a website and help users find the content they're looking for.</p>
+                        <p class="card-text">Editing or adding to a menu is easy. First go to <code>Appearance &#8674; Menus</code>. To add an item to the menu, select the page you want to add from the left hand side and click <code>Add to Menu</code>.</p>
+                        <div class="alert alert-success" role="alert">
+                            Menu items can be re-order by simply dragging and dropping the menu item!
+                        </div>
+                        <div class="alert alert-warning" role="alert">
+                            Don't forget to click <code>Save Menu</code> after making changes to your menu items.
+                        </div>
+                        <a href="https://codex.wordpress.org/WordPress_Menu_User_Guide" class="btn btn-primary" target="_blank" title="WordPress Menu Guide">Read the full WordPress menu guide</a>
+                    </div>
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- /.col -->
+        </div>
+        <!-- /.row -->
+
+        <div class="row">
+            <div class="col">
+                <div class="card mt-5" id="settings">
+                    <div class="card-header">
+                        <h4>Settings</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Managing WordPress Settings</h5>
+                        <img class="border border-primary" src="img/settings.png" alt="WordPress menus screenshot">
+                        <div class="alert alert-warning" role="alert">
+                            Your website will have <strong>two main settings areas</strong>. One for the settings of your actual website (users, administration, privacy settings, etc). The other will be global theme settings specific to the look and feel
+                            of your website. Both are covered below.
+                        </div>
+                        <h6 class="card-title"><strong>Website Settings</strong></h6>
+                        <p class="card-text">This Settings General Screen is the default Screen in the Settings Administration Screen and controls some of the most basic configuration settings for your site: your site's title and location, who may register an account at your
+                            site, and how dates and times are calculated and displayed.</p>
+                        <p class="card-text">You can find this area by going to the left hand sidebar and clicking <code>Settings</code>.</p>
+                        <div class="alert alert-danger" role="alert">
+                            You ikely won't need to change any items here. Be careful of the settings you change (such as the website URL) as these changes may alter your website functionality. When in doubt, just <a href="mailto:help@sparkycode.com"
+                                title="Email SparkyCode">email us</a>. We're happy to help.
+                        </div>
+                        <a href="https://codex.wordpress.org/Settings_General_Screen" class="btn btn-primary" target="_blank" title="WordPress Administration Screen">Learn more about the general WordPress settings</a>
+                        <h6 class="card-title mt-4"><strong>Theme Settings</strong></h6>
+                        <p class="card-text">Global theme settings can be found in the bottom left hand sidebar. These setitngs relate to the actual content and visuals of your theme. This area is used to control content/designs that appear throughout the site (not limited
+                            to one page). A good example is the footer text of your website.</p>
+
+                        <div class="alert alert-success">
+                            Theme settings are tailored specifically for you. They will have instructions and descriptions above each setting to make life easy!
+                        </div>
                     </div>
                 </div>
                 <!-- /.card -->
