@@ -4,6 +4,12 @@ body {
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Raleway', sans-serif;
 }
+.logo {
+    margin-bottom:15px;
+}
+.logo img {
+    max-width: 200px;
+}
 .card img {
     max-width:40%;
     margin-bottom:15px;
